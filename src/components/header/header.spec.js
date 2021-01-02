@@ -14,7 +14,7 @@ const setup=(props ={})=>{
     return component;
 }
 
-describe("Header compoentn", ()=>{
+describe("Header component", ()=>{
 
 
     let component;

@@ -1,5 +1,15 @@
-body {
-    background-color: gray;
-    margin: 0px;
-    padding: 0px
-}
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-size: 22px;
+            line-height: 22px;
+            background-color: gray;
+            margin: 0px;
+            padding: 0px
+        }
+        
+        .main {
+            max-width: 980px;
+            width: 100%;
+            margin: 20px auto 80px;
+            padding: 10px;
+        }

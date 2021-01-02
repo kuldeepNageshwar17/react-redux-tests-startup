@@ -3,10 +3,10 @@ import logo from "../../assets/logo.png"
 import "./style.scss"
 function Header() {
     return (
-      <header>
-          <div className="wraper">
+      <header data-test="headerComponent" className="">
+          <div className="wraper ">
               <div className="logo">
-                  <img src={logo} alt=""/>
+                  <img data-test="logoIMG"  className="logoIMG" src={logo} alt=""/>
               </div>
           </div>
       </header>

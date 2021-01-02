@@ -1,11 +1,13 @@
-
+import Header from "./components/header";
+import "./app.scss"
 
 function App() {
   return (
     <div className="App">
-    <h1>hello react</h1>
+   <Header></Header>
     </div>
   );
 }
 
 export default App;
+ 

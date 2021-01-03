@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes  from "prop-types"
 import './headline.scss'
 export default class Headline extends Component {
 //   constructor (props) {
@@ -16,4 +17,15 @@ export default class Headline extends Component {
       </div>
     )
   }
+}
+Headline.propTypes={
+    header:PropTypes.string,
+    desc:PropTypes.string,
+    tempArr:PropTypes.arrayOf(PropTypes.shape({
+        fName:PropTypes.string,
+        lName:PropTypes.string,
+        age:PropTypes.number,
+        email:PropTypes.string,
+        onlineStatus:PropTypes.bool
+    }))
 }

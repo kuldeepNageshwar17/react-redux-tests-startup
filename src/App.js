@@ -18,8 +18,7 @@ const tempArr = [
 ]
 
 function App ({ posts,fetchPost }) {
-  const fetch = () => {
-    
+  const fetch = () => {    
     fetchPost()
   }
   const configButton = {
@@ -27,7 +26,7 @@ function App ({ posts,fetchPost }) {
     emitEvent: fetch
   }
   return (
-    <div className='App'>
+    <div className='App' data-test="appComponent">
       <Header />
 
       <section className='main'>
